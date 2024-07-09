@@ -1,0 +1,264 @@
+.list-group-item:hover {
+  background-color: #f2ebeb;
+  color: #8bbdec;
+  cursor: pointer;
+}
+
+.list-group-flush .list-group-item {
+  border: none;
+  background: transparent;
+}
+
+.sidebar {
+  width: 285px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #AFE0F4 0%, #E1EEC8 100%);
+  border-right: 1px solid #dee2e6;
+}
+
+.image {
+  margin-top: 9px;
+  margin-left:5px;
+  margin-right: auto;
+}
+
+.name {
+  display: block;
+  margin: 1px 0;
+  font-weight: bold;
+  text-align: center;
+  margin-top:-70px;
+}
+
+.logout {
+  background: none;
+  border: none;
+}
+
+
+
+
+.navbar{
+  margin: top 100px;
+  width: 100%;
+  height: 100px;
+  right:11px;
+ 
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  } 
+   
+
+
+.navbar .form-control {
+  width: 100%; 
+  max-width: 250px; 
+}
+
+.banner-container {
+  width: 100%;
+  height: 229px; 
+  
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+
+  
+}
+
+
+
+.card-title {
+  color:rgba(36, 45, 53, 1);
+  ;
+  margin-bottom: 20px;
+}
+
+.form-group,
+.row {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card-title2{
+  color: #6c757d; 
+}
+
+.profile-container {
+  display: flex;
+  align-items:left;
+  justify-content:left;
+  margin-top: -70px; 
+  margin-left: 3%;
+}
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  top: 283px;
+  left: 340px;
+  gap: 0px;
+  opacity: 0px;
+  
+  border-radius: 50%;
+  border: 8px solid #fff;
+}
+.profile-details {
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.profile-details h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.profile-details p {
+  margin: 0;
+  font-size: 16px;
+  color: #6c757d;
+}
+.search-icon{
+  margin-left:20%;
+
+  
+
+}
+
+/* Notification bell styles */
+.notification-bell {
+  font-size: 24px;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  margin-right:60px;
+  margin-bottom: 10px;
+}
+
+.notification-bell:hover {
+  color: lightgray;
+}
+
+.pic{
+  width: 48px;
+height: 48px;
+
+
+}
+.pic2{
+  margin-right:10px;
+  margin-bottom: 2px;
+}
+
+
+/* Edit button styles */
+.edit-button {
+  position: absolute;
+  right: 50px;
+  top: 350px;
+  background-color: #c7d0da;
+  color:black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #68a8ed;
+}
+
+
+/* Dashboard Css starts here */
+
+.container {
+  max-width: 1620px;
+  margin: auto;
+}
+
+.card.job-seeker-card {
+  position: relative;
+  overflow: hidden;
+  bottom:30px;
+  margin-top: 1px;
+  margin-bottom:1px;
+  height: 250px; 
+}
+
+.card.job-seeker-card img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color:black;
+  padding: 4%;
+  text-align:right;
+  background: linear-gradient(270deg, #E1EEC8 -9.65%, rgba(243, 249, 233, 0) 76.44%);
+
+}
+
+.job-seeker-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.job-seeker-card-text {
+  margin: 1rem 0;
+}
+
+.job-seeker-card-btn {
+  position: relative;
+  left: 60%;
+  width: 30%;
+  border-color: #76f1ed;
+  color: #000;
+}
+
+.info-card {
+  position: relative;
+  margin-bottom: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-icon {
+  color: #bebe14;
+  font-size: 2rem;
+}
+
+.card-title3 {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+}
+
+.d-flex .ml-3 {
+  margin-left: 1rem;
+}
+
+.d-flex .mt-3 {
+  margin-top: 1rem;
+}
