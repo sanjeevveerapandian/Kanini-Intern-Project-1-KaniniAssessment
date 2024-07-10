@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
@@ -13,7 +14,7 @@ function Sidebar() {
       <ul className="list-group list-group-flush">
         <li className="list-group-item list-group-item-action my-2">
           <i className="bi bi-intersect fs-5 me-2"></i>
-          <span>Dashboard</span>
+          <Link to="/" className="text-decoration-none text-dark">Dashboard</Link>
         </li>
         <li className="list-group-item list-group-item-action my-2 py-2">
           <i className="bi bi-journal fs-4 me-2"></i>
@@ -29,7 +30,7 @@ function Sidebar() {
         </li>
         <li className="list-group-item list-group-item-action my-2">
           <i className="bi bi-gear fs-4 me-2"></i>
-          <span>Settings</span>
+          <Link to="/Settings" className="text-decoration-none text-dark">Settings</Link>
         </li>
         
           <li className="list-group-item logout" src="/Mask.png" alt="kanini
