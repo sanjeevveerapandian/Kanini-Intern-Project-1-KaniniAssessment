@@ -4,9 +4,9 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import Navbar1 from './components/Navbar1';
-import Content from './components/Settings';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Settings from './components/Settings';
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
                   element={
                     <>
                       <Navbar />
-                      <Content />
+                      <Settings/>
                     </>
                   }
                 />
@@ -34,6 +34,7 @@ const App = () => {
                     <>
                       <Navbar1 />
                       <Dashboard />
+                      
                     </>
                   }
                 />
