@@ -262,3 +262,65 @@ height: 48px;
 .d-flex .mt-3 {
   margin-top: 1rem;
 }
+
+/* Media queries */
+
+@media (max-width: 1200px) {
+  .card.job-seeker-card {
+    height: 200px;
+  }
+  
+  .job-seeker-card-title {
+    font-size: 1.25rem;
+  }
+  
+  .job-seeker-card-btn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .navbar {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card.job-seeker-card img {
+    width: 100%;
+  }
+
+  .job-seeker-card-title {
+    font-size: 1rem;
+  }
+  
+  .job-seeker-card-btn {
+    width: 70%;
+    left: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .profile-details {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .edit-button {
+    right: 10px;
+    top: 10px;
+  }
+}
